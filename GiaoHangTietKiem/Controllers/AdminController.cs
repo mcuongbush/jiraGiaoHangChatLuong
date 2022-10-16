@@ -34,6 +34,7 @@ namespace GiaoHangTietKiem.Controllers
                 {
                     Session["TaiKhoan"] = tk.TenTK;
                     return RedirectToAction("IndexAdmin");
+
                 }
                 else
                 {
